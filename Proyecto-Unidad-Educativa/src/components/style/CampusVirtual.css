@@ -1,0 +1,139 @@
+.campus-virtual-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+}
+
+.campus-virtual-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.campus-virtual-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.campus-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.campus-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.btn-campus {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: darkgray;
+  color: black;
+  border-color: black;
+}
+.btn-campus:hover {
+  background-color: cadetblue; 
+  color: black; 
+  border-color: cadetblue;
+}
+
+/* BIBLIOTECA VIRTUAL*/
+.campus-virtual-container2 {
+  text-align: center; 
+}
+
+.search-form2 {
+  margin-top: 40px; /* Espacio superior para separar del título */
+  margin-bottom: 40px;
+  display: inline-block; /* Para que ocupe solo el ancho necesario */
+}
+
+/* CarruselBiblioteca.css */
+.carousel {
+  max-width: 800px; /* Ancho máximo del carrusel */
+  margin: 0 auto; /* Centrar el carrusel */
+}
+
+.carousel-item {
+  text-align: center; /* Centrar el contenido dentro de cada slide */
+}
+
+.texto{
+  color: #008B8B;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 20px; /* Puedes ajustar el margen según sea necesario */
+  
+  color: black;
+  border-color: black;
+}
+.btn-biblioteca{
+  
+  background-color: darkgray;
+  color: black;
+  border-color: black;
+}
+.btn-biblioteca:hover{
+  background-color: cadetblue; 
+  color: black; 
+  border-color: cadetblue;
+}
+.soporte-virtual-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.soporte-virtual-form-wrapper {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(8, 8, 8, 0.801);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.formulario-recuadro {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.boton-sesion {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logout-button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+}
+.gif-container{
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
